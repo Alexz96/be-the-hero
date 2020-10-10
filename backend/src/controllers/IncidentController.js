@@ -1,3 +1,4 @@
+const { join } = require('../database/connection');
 const connection = require('../database/connection');
 
 module.exports = {
@@ -7,9 +8,17 @@ module.exports = {
         const [count] = await connection('incidents').count(); // Retorna um array, mas da forma que está, pega só o primeiro registro
 
         const incidents = await connection('incidents')
+            .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
             .limit(5) // Limita a busca no banco por 5 incidentes
             .offset((page - 1) * 5)
-            .select('*');
+            .select([
+                'incidents.*', 
+                'ongs.name', 
+                'ongs.email', 
+                'ongs.whatsapp', 
+                'ongs.city', 
+                'ongs.uf'
+            ]);
 
         response.header('X-Total-Count', count['count(*)']);
 
