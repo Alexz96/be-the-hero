@@ -6,8 +6,8 @@
 
 ## Layout web
 ![Web 1](https://github.com/Alexz96/be-the-hero/blob/main/assets/web/logon.png)
-![Web 2](https://github.com/Alexz96/be-the-hero/blob/main/assets/web/profile.png)
-![Web 3](https://github.com/Alexz96/be-the-hero/blob/main/assets/web/register.png)
+![Web 2](https://github.com/Alexz96/be-the-hero/blob/main/assets/web/register.png)
+![Web 3](https://github.com/Alexz96/be-the-hero/blob/main/assets/web/profile.png)
 
 
 # Tecnologias
@@ -68,4 +68,5 @@ npm start ou yarn start
 Alexsander de A. Oliveira
 
 # Agradecimentos
-Rocketseat (Diego Fernandes)
+- Rocketseat (Diego Fernandes)
+- DevSuperior (Nelio Alves)
