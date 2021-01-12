@@ -14,8 +14,8 @@ Sobre a aplicação desenvolvida, esta tem como objetivo incentivar a colaboraç
 ![Web 3](https://github.com/Alexz96/be-the-hero/blob/main/assets/web/profile.png)
 
 ## Layout App
+![App 1](https://github.com/Alexz96/be-the-hero/blob/main/assets/mobile/)
 
-Em construção
 
 # Tecnologias
 
@@ -31,6 +31,9 @@ Em construção
 - CSS 
 - JavaScript / TypeScript
 - ReactJS
+
+## Mobile
+- Expo
 
 # Como executar o projeto
 
@@ -70,6 +73,28 @@ npm install ou yarn install
 
 # executar o projeto
 npm start ou yarn start
+```
+
+## Mobile
+
+```bash
+# clonar repositório
+git clone https://github.com/Alexz96/be-the-hero.git
+
+# entrar na pasta do projeto
+cd be-the-hero
+
+# entrar na pasta do projeto mobile
+cd mobile
+
+# instalar o Expo caso não o possua, com o comando 
+npm install -g expo-cli
+
+# instalar as dependências do app mobile
+npm install ou yarn install
+
+# executar o app mobile
+npm start ou yarn start (preferencialmente)
 ```
 
 # Autor
