@@ -14,8 +14,7 @@ Sobre a aplicação desenvolvida, esta tem como objetivo incentivar a colaboraç
 ![Web 3](https://github.com/Alexz96/be-the-hero/blob/main/assets/web/profile.png)
 
 ## Layout App
-![App 1](https://github.com/Alexz96/be-the-hero/blob/main/assets/mobile/)
-
+<img src="https://github.com/Alexz96/be-the-hero/blob/main/assets/mobile/splashScreen.jpg" width="250" height="420">
 
 # Tecnologias
 
