@@ -34,6 +34,7 @@ Sobre a aplicação desenvolvida, esta tem como objetivo incentivar a colaboraç
 
 ## Mobile
 - Expo
+- React Native
 
 # Como executar o projeto
 
@@ -91,11 +92,15 @@ cd mobile
 npm install -g expo-cli
 
 # instalar as dependências do app mobile
-npm install ou yarn install
+npm install ou yarn install (preferencialmente)
 
 # executar o app mobile
-npm start ou yarn start (preferencialmente)
+yarn start ou expo start (preferencialmente)
 ```
+
+# Notas
+- Em caso de execução completa da solução, deve-se executar o Back-end simultaneamente através do terminal, com as demais etapas do projeto
+- Ao utilizar o Expo para execução do Mobile, deve-se verificar o endereço IP local para alteração no arquivo api.js dentro de mobile/src/services/ e mesmo assim, pode ser que ocorra erro na requisição (onde até o momento não identifiquei a solução)
 
 # Autor
 
